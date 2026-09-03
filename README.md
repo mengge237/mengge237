@@ -19,7 +19,7 @@
 ### 🎮 游戏
 | 项目 | 说明 | 链接 |
 |---|---|---|
-| **异变棋局（畸变骑士）** | Unity 卡牌 Roguelike 游戏原型：程序化地图/回合战斗/卡组构筑/遗物合成，57+ commits，已出 Windows 可运行版 | [GitHub](https://github.com/mengge237/distortion-knight-development) |
+| **异变棋局** | Unity 卡牌 Roguelike 游戏原型：程序化地图/回合战斗/卡组构筑/遗物合成，57+ commits，已出 Windows 可运行版 | 暂不开通源码地址
 | **Blender 作品集** | 模型/场景/材质/几何节点/特效 38+ 件练习作品 | [GitHub](https://github.com/mengge237/blender-works) |
 
 ### ☕ Java 全栈
@@ -42,8 +42,6 @@
 | **路径算法可视化** | Python/Pygame 五种路径算法 + 性能对比 | [GitHub](https://github.com/mengge237/maze-pathfinding-visualizer) |
 | **书签整理工具** | Python + Chrome 扩展批量管理书签 | [GitHub](https://github.com/mengge237/bookmark-organizer) |
 | **AI 对话 Demo** | C# Semantic Kernel + Ollama 本地 LLM | [GitHub](https://github.com/mengge237/semantic-kernel-ollama-demo) |
-
-## 📫 联系
 
 - GitHub：https://github.com/mengge237
 - 欢迎交流游戏开发、全栈与 AI 应用方向的技术与项目
