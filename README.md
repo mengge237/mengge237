@@ -1,4 +1,4 @@
-﻿# 👋 你好，我是 mengge237
+# 👋 你好，我是 mengge237
 
 **计算机科学与技术 · 本科在读 · 2027届** · 全栈开发 / 游戏方向
 
@@ -9,6 +9,7 @@
 | 方向 | 技能 |
 |---|---|
 | ☕ 后端 | Java / Spring Boot / JWT / JPA / MySQL / Node.js / Express / WebSocket |
+| 📱 移动端 | Android（Java）/ Retrofit / SQLite |
 | 🖥️ 前端 | Vue3 / Three.js / GSAP / HTML5 / CSS3 / JavaScript |
 | 🎮 游戏方向 | Godot / GDScript（学习与开发中） / Blender |
 | 🤖 AI | Semantic Kernel / Ollama / LLM 集成（智谱 / DeepSeek / OpenAI） |
@@ -25,9 +26,13 @@
 ### 🖥️ 前端 / Web
 | 项目 | 说明 | 链接 |
 |---|---|---|
-| **Three.js 3D Demo** | 3D 场景/动画/GLTF 加载（Vite 工程） | [GitHub](https://github.com/mengge237/threejs-demos) |
 | **前端交互 Demo 集** | 50+ 独立交互页面：3D/粒子/动效/响应式 | [GitHub](https://github.com/mengge237/html-interactive-demos) |
-| **个人作品集站** | 个人博客 + 作品集展示 | [GitHub](https://github.com/mengge237/personal-portfolio) |
+| **Three.js 3D Demo** | 3D 场景/动画/GLTF 加载（Vite 工程） | [GitHub](https://github.com/mengge237/threejs-demos) |
+
+### 📱 移动端 / 全栈
+| 项目 | 说明 | 链接 |
+|---|---|---|
+| **记账本 App** | Android 客户端（Retrofit/JWT）+ Express/MySQL 后端，全栈实现 | [前端](https://github.com/mengge237/accounting-app-android) · [后端](https://github.com/mengge237/accounting-app-backend) |
 
 ### 🎨 3D 建模
 | 项目 | 说明 | 链接 |
@@ -37,8 +42,6 @@
 ### 🔧 工具 / 其他
 | 项目 | 说明 | 链接 |
 |---|---|---|
-| **记账本后端** | Express + MySQL + JWT 多模块 API | [GitHub](https://github.com/mengge237/accounting-app-backend) |
-| **路径算法可视化** | Python/Pygame 五种路径算法 + 性能对比 | [GitHub](https://github.com/mengge237/maze-pathfinding-visualizer) |
 | **书签整理工具** | Python + Chrome 扩展批量管理书签 | [GitHub](https://github.com/mengge237/bookmark-organizer) |
 | **AI 对话 Demo** | C# Semantic Kernel + Ollama 本地 LLM | [GitHub](https://github.com/mengge237/semantic-kernel-ollama-demo) |
 
