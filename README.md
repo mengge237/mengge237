@@ -2,7 +2,7 @@
 
 ![lang](https://img.shields.io/badge/lang-docs-informational) ![status](https://img.shields.io/badge/status-maintained-brightgreen)
 
-> 全部仓库的分级导航（常用 / 主线 / 展示 / 归档）见 **[A_atlas 仓库总索引](https://github.com/mengge237/A_atlas)**
+> 全部仓库的分级导航（常用 / 主线 / 展示 / 归档）见 **[A-atlas 仓库总索引](https://github.com/mengge237/A-atlas)**
 
 
 **计算机科学与技术 · 本科在读 · 2027届** · 全栈开发 / 游戏方向
@@ -52,4 +52,5 @@
 
 - GitHub：https://github.com/mengge237
 - 欢迎交流全栈开发、游戏与 AI 应用方向的技术与项目
+
 
