@@ -18,7 +18,7 @@
 | **多仓治理工具链** | 25 个仓库的分层登记收敛到单一数据源，一条命令出体检记分卡；编号类资源原子认领，12 进程并发实测拿到 12 个不同号 | [GitHub](https://github.com/mengge237/A-atlas-kit) |
 | **自动续接与运行时工具** | DSH 自动续接、百炼 Token Plan 工作流、故障复盘与证据收集一条链工具 | [续接](https://github.com/mengge237/dsh-auto-continue) · [Token Plan](https://github.com/mengge237/dsh-qwen-tokenplan-workflow) · [issue 工具](https://github.com/mengge237/dsh-issue-evidence) |
 
-另外做过一次论文复现（arXiv 2508.19484）：定位到评测脚本用原始行序反查打乱保存的样本 id 导致指标失真，修正口径后重算，并人工复核 178 行分歧样本重建基线——工作笔记在私有仓，不开放。
+另外参与过一次论文复现（arXiv 2508.19484）：**技术实现借助工具完成，我做的是判据与裁决** —— 定义「复现成功」的口径、核对重算指标与原始基线的分歧、对 178 行分歧样本定过以哪一侧为准。工作笔记在私有仓，不开放。
 
 ##  技术栈
 
