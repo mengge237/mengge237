@@ -13,10 +13,9 @@
 
 | 项目 | 说明 | 链接 |
 |---|---|---|
-| **Glance（开源贡献）** | 给这款 Tauri 2 + Rust 桌面应用定位并修的 3 个缺陷，PR #18 / #19 / #20 全部被上游合并，其中 #18、#20 已随 v0.2.30 发布；issue #17 已关闭 | [上游仓](https://github.com/Harukaon/Glance) |
-| **模型额度用量检测插件** | 本地估算与官方逐日报表对账，容差 1% 以内才算通过；98 项 node --test 用例；上游 issue #73、PR #74 / #78 在审 | [GitHub](https://github.com/mengge237/DeepSeek-Balance-Whale-Widget-tokenplan) |
+| **Glance（开源贡献）** | 给这款 Tauri 2 + Rust 桌面应用定位并修的 4 个问题，PR #18 / #19 / #20 / #22 全部被上游合并（#18、#20 已随 v0.2.30 发布；上游 contributors 列表里有我）；issue #17 已关闭 | [上游仓](https://github.com/Harukaon/Glance) |
+| **模型额度用量检测插件**（上游挂件的本地分支） | 本地估算与官方逐日报表对账，容差 1% 以内才算通过；零依赖 node --test 六套件、82 例通过；上游 issue #73 已提需求、PR #74 待作者评审（#78 已关闭、未合并） | [GitHub](https://github.com/mengge237/DeepSeek-Balance-Whale-Widget-tokenplan) |
 | **多仓治理工具链** | 25 个仓库的分层登记收敛到单一数据源，一条命令出体检记分卡；编号类资源原子认领，12 进程并发实测拿到 12 个不同号 | [GitHub](https://github.com/mengge237/A-atlas-kit) |
-| **侧边栏底座** | 开放的挂件注册机制，第三方可把自己的页面挂进去；内置文件渲染编辑 / 终端 / 侧边对话 / Git | [GitHub](https://github.com/mengge237/DSH-better-sidebar) |
 | **自动续接与运行时工具** | DSH 自动续接、百炼 Token Plan 工作流、故障复盘与证据收集一条链工具 | [续接](https://github.com/mengge237/dsh-auto-continue) · [Token Plan](https://github.com/mengge237/dsh-qwen-tokenplan-workflow) · [issue 工具](https://github.com/mengge237/dsh-issue-evidence) |
 
 另外做过一次论文复现（arXiv 2508.19484）：定位到评测脚本用原始行序反查打乱保存的样本 id 导致指标失真，修正口径后重算，并人工复核 178 行分歧样本重建基线——工作笔记在私有仓，不开放。
