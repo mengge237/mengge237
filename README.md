@@ -15,6 +15,7 @@
 |---|---|---|
 | **Glance（开源贡献）** | 给这款 Tauri 2 + Rust 桌面应用定位并修的 4 个问题，PR #18 / #19 / #20 / #22 全部被上游合并（#18、#20 已随 v0.2.30 发布；上游 contributors 列表里有我）；issue #17 已关闭 | [上游仓](https://github.com/Harukaon/Glance) |
 | **模型额度用量检测插件**（上游挂件的本地分支） | 本地估算与官方逐日报表对账，容差 1% 以内才算通过；零依赖 node --test 六套件、82 例通过；上游 issue #73 已提需求、PR #74 待作者评审（#78 已关闭、未合并） | [GitHub](https://github.com/mengge237/DeepSeek-Balance-Whale-Widget-tokenplan) |
+| **模型顺序插件（开源）** | 侧边栏拖拽调整模型 / 提供方顺序，宿主的模型列表按这份顺序返回；写 `settings.yaml` 前自动备份；三个零依赖测试套件、40 项用例 | [GitHub](https://github.com/mengge237/dsh-model-priority) |
 | **多仓治理工具链** | 25 个仓库的分层登记收敛到单一数据源，一条命令出体检记分卡；编号类资源原子认领，12 进程并发实测拿到 12 个不同号 | [GitHub](https://github.com/mengge237/A-atlas-kit) |
 | **自动续接与运行时工具** | DSH 自动续接、百炼 Token Plan 工作流、故障复盘与证据收集一条链工具 | [续接](https://github.com/mengge237/dsh-auto-continue) · [Token Plan](https://github.com/mengge237/dsh-qwen-tokenplan-workflow) · [issue 工具](https://github.com/mengge237/dsh-issue-evidence) |
 
@@ -62,6 +63,5 @@
 
 - GitHub：https://github.com/mengge237
 - 欢迎交流全栈开发、游戏与 AI 应用方向的技术与项目
-
 
 
