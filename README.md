@@ -1,67 +1,58 @@
-#  你好，我是 mengge237
+# 你好，我是 mengge237
 
-![lang](https://img.shields.io/badge/lang-docs-informational) ![status](https://img.shields.io/badge/status-maintained-brightgreen)
+计算机科学与技术 · 27 届 · 全栈开发 / 游戏开发 / AI 应用
 
-> 我的仓库按使用频率分四层管理，做法与脚本公开在 **[A-atlas-kit](https://github.com/mengge237/A-atlas-kit)**（自用索引含私有仓库，不公开）
+> 每天在用的东西比作品集更能说明问题。仓库按使用频率分层，总索引在 [A-atlas](https://github.com/mengge237/A-atlas)。
 
+## 常用入口
 
-**计算机科学与技术 · 本科在读 · 2027届** · 工具链 / 测试开发 · 全栈开发 / 游戏方向
+我每天会点开的那几个：
 
-> 独立开发 Java 全栈学习平台、AI 联机游戏平台与前端项目；热爱游戏、3D 建模与全栈开发。
-
-###  工具链 / 质量方向（投这个方向先看这里）
-
-| 项目 | 说明 | 链接 |
-|---|---|---|
-| **Glance（开源贡献）** | 给这款 Tauri 2 + Rust 桌面应用定位并修的 4 个问题，PR #18 / #19 / #20 / #22 全部被上游合并（#18、#20 已随 v0.2.30 发布；上游 contributors 列表里有我）；issue #17 已关闭 | [上游仓](https://github.com/Harukaon/Glance) |
-| **模型额度用量检测插件**（上游挂件的本地分支） | 本地估算与官方逐日报表对账，容差 1% 以内才算通过；零依赖 node --test 六套件、82 例通过；上游 issue #73 已提需求、PR #74 待作者评审（#78 已关闭、未合并） | [GitHub](https://github.com/mengge237/DeepSeek-Balance-Whale-Widget-tokenplan) |
-| **模型顺序插件（开源）** | 侧边栏拖拽调整模型 / 提供方顺序，宿主的模型列表按这份顺序返回；写 `settings.yaml` 前自动备份；三个零依赖测试套件、40 项用例 | [GitHub](https://github.com/mengge237/dsh-model-priority) |
-| **多仓治理工具链** | 25 个仓库的分层登记收敛到单一数据源，一条命令出体检记分卡；编号类资源原子认领，12 进程并发实测拿到 12 个不同号 | [GitHub](https://github.com/mengge237/A-atlas-kit) |
-| **自动续接与运行时工具** | DSH 自动续接、百炼 Token Plan 工作流、故障复盘与证据收集一条链工具 | [续接](https://github.com/mengge237/dsh-auto-continue) · [Token Plan](https://github.com/mengge237/dsh-qwen-tokenplan-workflow) · [issue 工具](https://github.com/mengge237/dsh-issue-evidence) |
-
-另外参与过一次论文复现（arXiv 2508.19484）：**技术实现借助工具完成，我做的是判据与裁决** —— 定义「复现成功」的口径、核对重算指标与原始基线的分歧、对 178 行分歧样本定过以哪一侧为准。工作笔记在私有仓，不开放。
-
-##  技术栈
-
-| 方向 | 技能 |
+| 入口 | 干什么 |
 |---|---|
-|  后端 | Java / Spring Boot / JWT / JPA / MySQL / Node.js / Express / WebSocket |
-|  移动端 | Android（Java）/ Retrofit / SQLite |
-|  前端 | Vue3 / Three.js / GSAP / HTML5 / CSS3 / JavaScript |
-|  游戏方向 | Godot / GDScript（学习与开发中） / Blender |
-|  AI | Semantic Kernel / Ollama / LLM 集成（智谱 / DeepSeek / OpenAI） |
-|  其他 | Python / Git / RESTful API |
+| [cs-drill](https://github.com/mengge237/cs-drill) | 刷题：软考 / 考研 408 / 四级 / Java / 数据库 / 网络，九千多题自动判分 |
+| [A-atlas](https://github.com/mengge237/A-atlas) | 仓库总索引：按使用频率四层分级，找仓先看这里 |
+| [dsh-pulse](https://github.com/mengge237/dsh-pulse) | 状态栏三格读数（压缩判级 / 四道机械闸 / 未提交改动）+ 一键出报告 |
+| [local-kb](https://github.com/mengge237/local-kb) | 跨项目检索：文档、源码、案卷一个入口 |
+| [gh-archive](https://github.com/mengge237/gh-archive) | 对外沟通留档：我方发言、对方原文、证据与复现件 |
+| [private-library](https://github.com/mengge237/private-library) | 素材台账与分级闸（含 Wallpaper Engine / B 站素材） |
 
-##  项目作品集
+## 正在做
 
-###  Java 全栈
-| 项目 | 说明 | 链接 |
-|---|---|---|
-| **AI 智学 LearnAI** | Spring Boot 4 + Vue3 + Three.js 学习平台：AI 答疑/学习路径/3D 模型商城（17 张表） | [GitHub](https://github.com/mengge237/learnai) |
-| **AI Agent 联机游戏平台** | Spring Boot + WebSocket + LLM：谁是卧底等 5 玩法，多模型切换/TTS/断线重连 | [后端](https://github.com/mengge237/ai-agent-platform) · [前端](https://github.com/mengge237/ai-undercover-agent) |
+- **DSH 插件**：输入框增强 [dsh-composer-ease](https://github.com/mengge237/dsh-composer-ease)（括号环绕、四类补全候选、行内灰字）、模型顺序 [dsh-model-priority](https://github.com/mengge237/dsh-model-priority)、状态读数 [dsh-pulse](https://github.com/mengge237/dsh-pulse)
+- **论文复现**：arXiv 2508.19484 的规则协同分析 —— 论文一已过三道人工闸，论文二在写
+- **27 届秋招**：Java 后端主线 + 测试开发备线
+- **《畸变骑士》**：Godot 项目（归档副本保留）
 
-###  前端 / Web
-| 项目 | 说明 | 链接 |
-|---|---|---|
-| **前端交互 Demo 集** | 50+ 独立交互页面：3D/粒子/动效/响应式 | [GitHub](https://github.com/mengge237/html-interactive-demos) |
-| **Three.js 3D Demo** | 3D 场景/动画/GLTF 加载（Vite 工程） | [GitHub](https://github.com/mengge237/threejs-demos) |
+## 上游贡献
 
-###  移动端 / 全栈
-| 项目 | 说明 | 链接 |
-|---|---|---|
-| **记账本 App** | Android 客户端（Retrofit/JWT）+ Express/MySQL 后端，全栈实现 | [前端](https://github.com/mengge237/accounting-app-android) · [后端](https://github.com/mengge237/accounting-app-backend) |
+| 项目 | 我做的部分 |
+|---|---|
+| [Glance](https://github.com/Harukaon/Glance) | Tauri 2 + Rust 桌面应用：PR #18 / #19 / #20 / #22 全部审查合并，#18 与 #20 随 v0.2.30 发布 |
+| [DeepSeek-Balance-Whale-Widget](https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget) | 额度挂件：本地分支 82 项测试通过，issue #73 与 PR #74 |
 
-###  3D 建模
-| 项目 | 说明 | 链接 |
-|---|---|---|
-| **Blender 作品集** | 模型/场景/材质/几何节点/特效 38+ 件练习作品 | [GitHub](https://github.com/mengge237/blender-works) |
+## 技术栈
 
-###  工具 / 其他
-| 项目 | 说明 | 链接 |
-|---|---|---|
-| **AI 对话 Demo** | C# Semantic Kernel + Ollama 本地 LLM | [GitHub](https://github.com/mengge237/semantic-kernel-ollama-demo) |
+**后端** Java / Spring Boot / JWT / JPA / MySQL / Node.js / Express / WebSocket
+**移动** Android（Java）/ Retrofit / SQLite
+**前端** Vue3 / Three.js / GSAP / HTML5 / CSS3
+**游戏与 3D** Godot / GDScript · Blender
+**AI** Semantic Kernel / Ollama / LLM 集成（DeepSeek / OpenAI / 百炼）
+**其他** Python / Git / RESTful API
+
+## 精选项目
+
+| 项目 | 说明 |
+|---|---|
+| [LearnAI](https://github.com/mengge237/learnai) | Spring Boot 4 + Vue3 + Three.js 的 AI 学习平台：AI 问答、学习路径、3D 模型商城 |
+| [AI 桌游平台](https://github.com/mengge237/ai-agent-platform) · [前端](https://github.com/mengge237/ai-undercover-agent) | Spring Boot + WebSocket + LLM，「谁是卧底」五种玩法，含模型切换与 TTS |
+| [记账 App](https://github.com/mengge237/accounting-app-android) · [后端](https://github.com/mengge237/accounting-app-backend) | Android 客户端 + Express/MySQL 服务端的全栈实现 |
+| [前端交互 Demo 集](https://github.com/mengge237/html-interactive-demos) | 50+ 单文件可跑的页面：3D 变换、动画、交互特效 |
+| [Blender 作品集](https://github.com/mengge237/blender-works) | 建模 / 材质 / 渲染 / 几何节点，38+ 练习件 |
+
+## 联系
 
 - GitHub：https://github.com/mengge237
-- 欢迎交流全栈开发、游戏与 AI 应用方向的技术与项目
+- 插件或工具的问题请直接开 issue（带版本号与复现步骤，我会先修再回）；其他交流欢迎提讨论。
 
-
+<sub>部分仓库为私有，外部访问会看到 404 —— 这是我的工作台，不是展柜。</sub>
