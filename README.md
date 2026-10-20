@@ -11,7 +11,7 @@
 ## 项目
 
 - [cs-drill](https://github.com/mengge237/cs-drill) —— 自用题库与刷题平台：软考 / 408 / 四级 / Java / 数据库 / 网络，九千多题，六道闸管入题质量
-- [private-library](https://github.com/mengge237/private-library) —— 私人图书馆 Studio：素材台账、分级闸双向审计、Wallpaper Engine 与 B 站素材
+- [pl-studio](https://github.com/mengge237/pl-studio) —— 私人图书馆 Studio：素材台账、分级闸双向审计、Wallpaper Engine 与 B 站素材
 - [A-atlas](https://github.com/mengge237/A-atlas) —— 仓库治理：按使用频率四层分级 + topics 自动化，脚本在 [A-atlas-kit](https://github.com/mengge237/A-atlas-kit)
 - [local-kb](https://github.com/mengge237/local-kb) —— 跨项目检索：文档、源码、案卷一个入口
 - [gh-archive](https://github.com/mengge237/gh-archive) —— 对外沟通留档：发言原文、证据、复现件
