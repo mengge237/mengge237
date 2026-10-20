@@ -40,15 +40,21 @@
 **AI** Semantic Kernel / Ollama / LLM 集成（DeepSeek / OpenAI / 百炼）
 **其他** Python / Git / RESTful API
 
-## 精选项目
+## 项目
+
+**主项目**
 
 | 项目 | 说明 |
 |---|---|
-| [LearnAI](https://github.com/mengge237/learnai) | Spring Boot 4 + Vue3 + Three.js 的 AI 学习平台：AI 问答、学习路径、3D 模型商城 |
-| [AI 桌游平台](https://github.com/mengge237/ai-agent-platform) · [前端](https://github.com/mengge237/ai-undercover-agent) | Spring Boot + WebSocket + LLM，「谁是卧底」五种玩法，含模型切换与 TTS |
-| [记账 App](https://github.com/mengge237/accounting-app-android) · [后端](https://github.com/mengge237/accounting-app-backend) | Android 客户端 + Express/MySQL 服务端的全栈实现 |
-| [前端交互 Demo 集](https://github.com/mengge237/html-interactive-demos) | 50+ 单文件可跑的页面：3D 变换、动画、交互特效 |
-| [Blender 作品集](https://github.com/mengge237/blender-works) | 建模 / 材质 / 渲染 / 几何节点，38+ 练习件 |
+| DSH 插件组 | [dsh-composer-ease](https://github.com/mengge237/dsh-composer-ease)（输入框：配对/环绕/四类补全候选）、[dsh-model-priority](https://github.com/mengge237/dsh-model-priority)（模型顺序）、[dsh-pulse](https://github.com/mengge237/dsh-pulse)（状态栏三格读数）。都只依赖官方 SDK，不改宿主源码 |
+| 论文复现 | arXiv 2508.19484 的规则协同分析：论文一已过三道人工闸（74 条 GT、59 条定类、4 张图），论文二在写 |
+| [cs-drill](https://github.com/mengge237/cs-drill) | 自用题库与刷题平台：软考 / 408 / 四级 / Java / 数据库 / 网络，九千多题，六道闸管入题质量 |
+| [private-library](https://github.com/mengge237/private-library) | 私人图书馆 Studio：素材台账、分级闸双向审计、Wallpaper Engine 与 B 站素材 |
+| [A-atlas](https://github.com/mengge237/A-atlas) | 仓库治理方法论：按使用频率四层分级 + topics 自动化，索引与脚本都在 [A-atlas-kit](https://github.com/mengge237/A-atlas-kit) |
+
+**早期与课程项目**
+
+不删，留着看进步：[LearnAI](https://github.com/mengge237/learnai)（Spring Boot + Vue3 学习平台）· [AI 桌游](https://github.com/mengge237/ai-agent-platform)（谁是卧底）· [记账 App](https://github.com/mengge237/accounting-app-android)（Android + Express）· [前端 Demo 集](https://github.com/mengge237/html-interactive-demos) · [Blender 作品集](https://github.com/mengge237/blender-works)
 
 ## 联系
 
