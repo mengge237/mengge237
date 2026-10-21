@@ -4,7 +4,7 @@
 
 ## 在做什么
 
-- **DSH 插件** —— 输入框增强 [dsh-composer-ease](https://github.com/mengge237/dsh-composer-ease)、模型顺序 [dsh-model-priority](https://github.com/mengge237/dsh-model-priority)、状态读数 [dsh-pulse](https://github.com/mengge237/dsh-pulse)；只依赖官方 SDK，不改宿主源码
+- **DSH 插件** —— 更便捷的输入框 [dsh-composer-ease](https://github.com/mengge237/dsh-composer-ease)、模型顺序 [dsh-model-priority](https://github.com/mengge237/dsh-model-priority)、状态读数 [dsh-pulse](https://github.com/mengge237/dsh-pulse)；只依赖官方 SDK，不改宿主源码
 - **论文复现** —— arXiv 2508.19484 的规则协同分析，论文一已过三道人工闸，论文二在写
 - **27 届秋招** —— Java 后端主线，测试开发备线
 
